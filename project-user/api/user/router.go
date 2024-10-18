@@ -21,6 +21,6 @@ type RouterUser struct {
 }
 
 func (*RouterUser) Route(r *gin.Engine) {
-	h := &HandlerUser{}
+	h := NewHandlerUser() // 调用自己写的构造函数
 	r.POST("project/login/getCaptcha", h.getCaptcha)
 }
