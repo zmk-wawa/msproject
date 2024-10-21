@@ -3,6 +3,7 @@ package dao
 import (
 	"context"
 	"github.com/go-redis/redis/v8"
+	"test.com/project-user/config"
 	"time"
 )
 
@@ -17,11 +18,12 @@ type RedisCache struct {
 }
 
 func init() {
-	rdb := redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
-		Password: "",
-		DB:       0,
-	})
+	//rdb := redis.NewClient(&redis.Options{
+	//	Addr:     "localhost:6379",
+	//	Password: "",
+	//	DB:       0,
+	//})
+	rdb := redis.NewClient(config.C.ReadRedisConfig())
 	Rc = &RedisCache{
 		rdb: rdb,
 	}

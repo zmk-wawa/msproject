@@ -1,2 +1,6 @@
 {"level":"INFO","time":"2024-10-21T13:26:27.246+0800","caller":"user/user.go:47","msg":"短信平台调用成功，发送短信"}
 {"level":"INFO","time":"2024-10-21T13:26:27.253+0800","caller":"user/user.go:56","msg":"成功将手机号和验证码存入Redis数据库: Register_19921261530 : 123456"}
+{"level":"INFO","time":"2024-10-21T15:39:35.590+0800","caller":"user/user.go:47","msg":"短信平台调用成功，发送短信"}
+{"level":"INFO","time":"2024-10-21T15:39:35.597+0800","caller":"user/user.go:56","msg":"成功将手机号和验证码存入Redis数据库: Register_19921261530 : 123456"}
+{"level":"INFO","time":"2024-10-21T15:51:59.739+0800","caller":"user/user.go:47","msg":"短信平台调用成功，发送短信"}
+{"level":"INFO","time":"2024-10-21T15:51:59.747+0800","caller":"user/user.go:56","msg":"成功将手机号和验证码存入Redis数据库: Register_19921261530 : 123456"}

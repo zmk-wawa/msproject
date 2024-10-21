@@ -1,0 +1,17 @@
+server:
+  name: "project-user"
+  addr: "127.0.0.1:8080"
+
+zap:
+  debugFileName: "/Users/zmk/Downloads/go/project/ms_project/project-common/logs/project-debug.log"
+  infoFileName: "/Users/zmk/Downloads/go/project/ms_project/project-common/logs/project-info.log"
+  warnFileName: "/Users/zmk/Downloads/go/project/ms_project/project-common/logs/project-error.log"
+  maxSize: 500,
+  maxAge: 28,
+  maxBackups: 3
+
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0
